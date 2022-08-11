@@ -1,0 +1,18 @@
+.banner-image{
+    width:30rem;
+    margin-left: auto;
+    position: absolute;
+    right:1rem;
+    top:8rem;
+    z-index: 1;
+}
+.bg-text p{
+    font-size: 10rem;
+    font-weight: 700;
+    color:#ff2625;
+    opacity: 0.3;
+    position: absolute;
+    top:32rem;
+    right:21rem;
+    z-index: 2;
+}
