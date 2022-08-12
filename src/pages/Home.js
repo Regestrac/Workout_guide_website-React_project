@@ -1,6 +1,7 @@
 import { Box } from '@mui/material'
 import React, { useState } from 'react'
 import Banner from '../components/Banner/Banner'
+import Exercises from '../components/Exercises/Exercises'
 import SearchExercises from '../components/SearchExercises/SearchExercises'
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
     <Box>
       <Banner/>
       <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart}/>
+      <Exercises exercises={exercises} setExercises={setExercises} bodyPart={bodyPart} />
     </Box>
   )
 }

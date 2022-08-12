@@ -3,9 +3,8 @@ import React, { useState, useEffect } from 'react'
 import { exerciseOptions, fetchData } from '../../utils/fetchData';
 import HorizontalScrollbar from '../HorizontalScrollbar/HorizontalScrollbar';
 
-const SearchExercises = (setExercises,bodyPart,setBodyPart) => {
+const SearchExercises = ({setExercises,bodyPart,setBodyPart}) => {
     const [search,setSearch]= useState('')
-    
     const [bodyParts, setBodyParts] = useState([])
 
     useEffect(()=>{
@@ -20,11 +19,13 @@ const SearchExercises = (setExercises,bodyPart,setBodyPart) => {
         if(search){
             const exerciseData = await fetchData('https://exercisedb.p.rapidapi.com/exercises', exerciseOptions);
             const SearchExercises = exerciseData.filter((exercise)=>
-            exercise.name.tolowercase().includes(search) || exercise.target.tolowercase().includes(search) || 
-            exercise.equipment.tolowercase().includes(search) || exercise.bodyPart.tolowercase().includes(search) )
+                exercise.name.toLowerCase().includes(search) || exercise.target.toLowerCase().includes(search) || 
+                exercise.equipment.toLowerCase().includes(search) || exercise.bodyPart.toLowerCase().includes(search) );
+            setSearch('');
+            console.log('SearchExercises:');
+            console.log(SearchExercises);
+            setExercises(SearchExercises);
         }
-        setSearch('');
-        setExercises(SearchExercises)
     }
   return (
     <Stack alignItems='center' mt='2rem' justifyContent='center' p='1.5rem'>
