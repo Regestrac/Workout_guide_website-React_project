@@ -17,6 +17,7 @@ function Banner() {
             <p>Exercise</p>
         </Typography>
         <img src={BannerImage} alt='Banner' className='banner-image'></img>
+        <hr></hr>
     </Box>
   )
 }
