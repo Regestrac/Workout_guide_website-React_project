@@ -15,6 +15,14 @@ const ExerciseVideos = ({exerciseVideos, name}) => {
                 return(
                     <a key={index} className='exercise-vides' href={`https://www.youtube.com/watch?v=${item.video.videoId}`} target='_blank' rel='boreferrer' >
                         <img src={item.video.thumbnails[0].url} alt={item.video.title} style={{width:'400px'}} />
+                        <Box>
+                            <Typography variant='h5' color='#000' width='400px'>
+                                {item.video.title}
+                            </Typography>
+                            <Typography variant='h6' color='#000'>
+                                {item.video.channelName}
+                            </Typography>
+                        </Box>
                     </a>
                 )
             })}
