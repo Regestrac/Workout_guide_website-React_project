@@ -1,0 +1,27 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background: #fff1f1;
+    z-index: 10;
+}
+.nav-items{
+    display: flex;
+    font-size: 1.5rem;
+    align-items: flex-end;
+    gap: 3rem;
+    margin-right: 3rem;
+    align-items: center;
+}
+.logo{
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem 1rem;
+}
+.stack-home{
+    text-decoration: none;
+    color: #3A1212;
+    border-bottom: 3px solid #FF2625;
+}
