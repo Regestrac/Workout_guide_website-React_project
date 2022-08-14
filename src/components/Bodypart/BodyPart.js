@@ -1,5 +1,5 @@
 import { Stack, Typography } from '@mui/material'
-import React,{useState, useEffect} from 'react'
+// import React,{useState, useEffect} from 'react'
 import Icon from '../../assets/icons/gymBlue.png'
 
 function BodyPart({item, setBodyPart, bodyPart}) {

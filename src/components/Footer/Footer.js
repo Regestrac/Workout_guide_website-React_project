@@ -10,10 +10,10 @@ const Footer = () => {
             <Typography>
                 Made with ❤️ by Let's Workout<br/>
                 <p style={{fontSize:'small', textAlign:'center', marginTop:'.5rem', marginBottom:'1rem'}}>Owner: Regestrac</p>
+                <p>Made especially for Ajay M V(Mass Veeran Rockey Prakash Annan)</p>
             </Typography>
         </Stack>
     </Box>
   )
 }
-
 export default Footer
