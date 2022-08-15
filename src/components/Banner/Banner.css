@@ -3,14 +3,12 @@
     flex-wrap: wrap;
     padding: 1.5rem;
 }
-.banner-stack1{
-    width: 50%;
-}
-.banner-stack2{
+.banner-stack1, .banner-stack2{
     width: 50%;
 }
 .banner-image{
-    width:30rem;
+    width:90%;
+    max-width: 30rem;
     margin-left: auto;
     right:1rem;
     z-index: 1;
@@ -22,11 +20,20 @@
     opacity: 0.3;
     z-index: 2;
 }
+.exp-btn{
+    background-color: #ff2625;
+    padding: .7rem;
+    margin-top: 1rem;
+}
 @media only screen and (max-width:720px){
-    .banner-stack1{
+    .banner-stack1, .banner-stack2{
         width: 100%;
     }
-    .banner-stack2{
-        width: 100%;
+    .banner-box{
+        flex-direction: column-reverse;
     }
+    .bg-text{
+        display:none;
+    }
+
 }

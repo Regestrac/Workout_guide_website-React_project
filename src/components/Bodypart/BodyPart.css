@@ -1,0 +1,19 @@
+.bodyPart-cards{
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+    width: 10rem;
+    height: 10rem;
+    gap: 3rem;
+}
+.bodypart-icon{
+    width: 3rem;
+    height: 3rem;
+}
+.body-part{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3A1212;
+    text-transform: capitalize;
+}

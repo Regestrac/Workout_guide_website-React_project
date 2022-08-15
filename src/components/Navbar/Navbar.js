@@ -13,7 +13,7 @@ function Navbar() {
         </Link>
       </Box >
       <Stack className='nav-items' direction='row'>
-        <Link to='/' href='#home' className='stack-home'>Home</Link>
+        <Link to='/' className='stack-home'>Home</Link>
         <a href='#exercises' style={{ textDecoration: 'none', color: '#3a1212' }}>Exercises</a>
       </Stack>
     </Stack>
