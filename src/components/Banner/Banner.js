@@ -27,5 +27,4 @@ function Banner() {
         </Box>
     )
 }
-
 export default Banner

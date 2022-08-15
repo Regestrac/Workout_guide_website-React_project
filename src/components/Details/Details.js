@@ -3,6 +3,7 @@ import BodyPartImage from '../../assets/icons/body-part.png'
 import TargetImage from '../../assets/icons/target.png'
 import EquipmentImage from '../../assets/icons/equipment.png'
 import { Button, Stack, Typography } from '@mui/material'
+import './Details.css'
 
 const Details = ({ exerciseDetail }) => {
     const { bodyPart, gifUrl, name, target, equipment } = exerciseDetail;
@@ -13,8 +14,8 @@ const Details = ({ exerciseDetail }) => {
     ]
 
     return (
-        <Stack gap='60px' sx={{ flexDirection: { lg: 'row' }, p: '20px', alignItems: 'center' }}>
-            <img src={gifUrl} alt={name} loading='lazy' className='detail-image' height='700px' width='700px' />
+        <Stack className='details' >
+            <img src={gifUrl} alt={name} loading='lazy' className='detail-image' />
             <Stack sx={{ gap: { lg: '35px', xs: '20px' } }}>
                 <Typography variant='h3' >
                     {name}
@@ -26,9 +27,9 @@ const Details = ({ exerciseDetail }) => {
                 </Typography>
                 {extraDetails.map((item) => {
                     return (
-                        <Stack key={item.name} direction='row' gap='24px' alignItems='center' marginTop='1rem'>
-                            <Button sx={{ background: '#fff2db', borderRadius: '50%', width: '100px', height: '100px' }} >
-                                <img src={item.icon} alt={bodyPart} style={{ width: '50px', height: '50px' }} />
+                        <Stack key={item.name} className='extra-detail'>
+                            <Button  sx={{ background: '#fff2db', borderRadius: '50%', width: '6rem', height: '6rem' }}>
+                                <img src={item.icon} alt={bodyPart} className='detail-img' />
                             </Button>
                             <Typography textTransform='capitalize' variant='h5'>
                                 {item.name}
