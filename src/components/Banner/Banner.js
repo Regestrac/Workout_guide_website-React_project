@@ -7,18 +7,18 @@ function Banner() {
     return (
         <Box className='banner-box' id='banner' >
             <Stack className='banner-stack1'>
-                <Typography color='#FF2625' fontWeight='600' fontSize="26px">
-                    Let's Workout Club
+                <Typography className='type1'>
+                    <p>Let's Workout Club</p>
                 </Typography>
-                <Typography fontWeight='700' fontSize='3rem'>
-                    Sweat, Gain, Smile <br /> and Repeat
+                <Typography className='type2' fontWeight='700' fontSize='3rem'>
+                    <p>Sweat, Gain, Smile <br /> and Repeat</p>
                 </Typography>
-                <Typography fontSize='22px' lineHeight='35px'>
-                    Checkout the most effective exercises
+                <Typography className='type3' fontSize='22px' lineHeight='35px'>
+                    <p>Checkout the most effective exercises</p>
                 </Typography>
-                <Button variant="contained" href='#exercises'>Explore Now</Button>
+                <Button variant="contained" href='#exercises' className='exp-btn'  style={{marginLeft:'7rem'}}><p>Explore Now</p></Button>
                 <Typography className='bg-text'>
-                    <p>Exercise</p>
+                    <p>WORKOUT</p>
                 </Typography>
             </Stack>
             <Stack className='banner-stack2'>
