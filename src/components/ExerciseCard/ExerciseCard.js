@@ -9,11 +9,11 @@ const ExerciseCard = ({ exercise }) => {
         <img src={exercise.gifUrl} alt={exercise.name} loading='lazy' height='250px' width='250px' />
         <Stack direction='row'>
           <Button sx={{ ml: '21px', color: '#fff', background: '#fcc757', fontsize: '14px', borderRadius: '20px', textTransform: 'capitalize' }}
-            onclicl={window.scrollTo({ top: 0, behaviour: 'smooth' })}>
+            onClick={window.scrollTo({ top: 0, behaviour: 'smooth' })}>
             {exercise.bodyPart}
           </Button>
           <Button sx={{ ml: '21px', color: '#fff', background: '#ffa9a9', fontsize: '14px', borderRadius: '20px', textTransform: 'capitalize' }}
-            onclicl={window.scrollTo({ top: 0, behaviour: 'smooth' })}>
+            onClick={window.scrollTo({ top: 0, behaviour: 'smooth' })}>
             {exercise.target}
           </Button>
         </Stack>

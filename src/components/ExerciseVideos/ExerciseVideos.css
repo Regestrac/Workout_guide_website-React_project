@@ -1,8 +1,9 @@
 .exe-video{
-    margin-top: 10rem;
+    margin-top: 5rem;
     padding: 1.5rem;
 }
 .thumb-box{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -10,20 +11,12 @@
 }
 .thumbnail{
     width:24rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
 
-@media only screen and(min-width:420px) and (max-width:1080px){
-    .thumbnail{
-        width:48%;
-    }
-}
-
-@media only screen and(max-width:420px){
+@media only screen and(max-width:450px){
     .exe-video{
         margin-top: 1.5rem;
-        padding: 1.5rem;
+        padding: 0;
     }
     .thumbnail{
         width:95%;

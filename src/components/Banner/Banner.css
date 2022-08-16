@@ -10,7 +10,7 @@
     gap:2rem;
 }
 .banner-image{
-    width:90%;
+    width:95%;
     max-width: 30rem;
     margin-left: auto;
     right:1rem;
@@ -61,5 +61,9 @@
     }
     .banner-stack1{
         gap: 1rem;
+    }
+    .type1 p, .type2 p, .type3 p{
+        margin-left: auto;
+        margin-right: auto;
     }
 }

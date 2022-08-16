@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 const Exercises = ({exercises,setExercises,bodyPart}) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const exercisesPerPage =12;
+  const exercisesPerPage =8;
   const indexOfLastExercise= currentPage*exercisesPerPage;
   const indexOfFirstExercise= indexOfLastExercise-exercisesPerPage;
   const currentExercises = exercises?.slice(indexOfFirstExercise,indexOfLastExercise)
