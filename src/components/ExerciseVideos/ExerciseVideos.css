@@ -1,6 +1,7 @@
 .exe-video{
     margin-top: 5rem;
     padding: 1.5rem;
+    margin-bottom: 2rem;
 }
 .thumb-box{
     width: 100%;
@@ -8,17 +9,28 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
 }
 .thumbnail{
-    width:24rem;
+    width:23rem;
 }
-
-@media only screen and(max-width:450px){
+.video-box{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.exercise-videos{
+    margin-top: 1.5rem;
+}
+@media only screen and(max-width:420px){
     .exe-video{
-        margin-top: 1.5rem;
+        width: 100%;
+        margin-top: 2rem;
         padding: 0;
     }
     .thumbnail{
         width:95%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

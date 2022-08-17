@@ -1,0 +1,31 @@
+.exe-img{
+    height:12rem;
+    width: 12rem;
+}
+.btn1, .btn2{
+    width: fit-content;
+    height: fit-content;
+    padding: .5rem;
+    color: white;
+    font-size: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    text-transform: capitalize;
+}
+.btn1{
+    background-color: #ffa9a9;
+}
+.btn2{
+    background-color: #fcc757;
+}
+.name{
+    margin-left: 1.2rem;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding-bottom: .8rem;
+    text-transform: capitalize;
+    max-width: 12rem;
+    text-align: center;
+}

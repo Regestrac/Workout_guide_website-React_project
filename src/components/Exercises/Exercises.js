@@ -27,8 +27,8 @@ const Exercises = ({exercises,setExercises,bodyPart}) => {
     fetchExercisesData()
   },[bodyPart])
   return (
-    <Box id='exercises' sx={{mt:{lg:'110px'}}} mt='50px' p='20px'>
-        <Typography varient="h3" mb="43px">
+    <Box id='exercises' sx={{mt:{lg:'6rem'}}} mt='3rem' p='1.3rem'>
+        <Typography varient="h3" mb="2.5rem">
            Showing Results
         </Typography>
         <Stack direction='row' sx={{gap:{lg:'110px',xs:'50px'}}} flexWrap="wrap" justifyContent='center'>
@@ -47,5 +47,4 @@ const Exercises = ({exercises,setExercises,bodyPart}) => {
     </Box>
   )
 }
-
 export default Exercises

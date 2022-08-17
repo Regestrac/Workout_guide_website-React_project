@@ -25,4 +25,13 @@
     color: #3A1212;
     border-bottom: 3px solid #FF2625;
 }
-
+@media (max-width:420px){
+    .logo{
+        margin-left: 1rem;
+    }
+    .nav-items{
+        gap:1rem;
+        font-size: 1.5rem;
+        margin-right: 1rem;
+    }
+}

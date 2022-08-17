@@ -1,0 +1,29 @@
+.text-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    height: 3.5rem;
+    width:75%;
+    color: #000;
+    background-color: white;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.search-btn{
+    height:3.5rem;
+    width:fit-content;
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #ff2625;
+}
+.search-btn:hover{
+    background-color: #ff5a5a;
+}

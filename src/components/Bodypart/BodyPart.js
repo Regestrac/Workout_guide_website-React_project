@@ -5,7 +5,7 @@ import './BodyPart.css'
 
 function BodyPart({item, setBodyPart, bodyPart}) {
   return (
-    <Stack type='button' className='bodyPart-cards' sx={{ borderTop: bodyPart === item ? '4px solid #ff1212' : '',borderBottomLeftRadius:'20px',}} 
+    <Stack type='button' className='bodyPart-cards' sx={{ borderTop: bodyPart === item ? '4px solid #ff1212' : '',borderBottomLeftRadius:'1.4rem',}} 
         onClick={()=>{
           setBodyPart(item);
             window.scrollTo({top:1800, left:100, behaviour:'smooth'})

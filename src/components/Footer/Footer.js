@@ -4,13 +4,13 @@ import Logo from '../../assets/images/Logo.png'
 
 const Footer = () => {
   return (
-    <Box mt='80px' bgcolor='#fff3f4'>
-        <Stack gap='40px' alignItems='center' px='40px' pt='24px' >
-            <img src={Logo} alt='Logo' width='50px' ></img>
+    <Box mt='5rem' bgcolor='#fff3f4'>
+        <Stack gap='2.5rem' alignItems='center' px='2.5rem' pt='1.5rem' >
+            <img src={Logo} alt='Logo' width='3rem' ></img>
             <Typography textAlign='center'>
                 Made with ❤️ by Let's Workout<br/>
                 <p style={{fontSize:'small', textAlign:'center', marginTop:'.5rem', marginBottom:'1rem'}}>Owner: Regestrac</p>
-                Made especially for Ajay M V(Mass Veeran Rockey Prakash Annan)
+                Made especially for Ajay M V (Mass Veeran Rockey Prakash Annan)
             </Typography>
         </Stack>
     </Box>

@@ -13,7 +13,7 @@ function Banner() {
                 <Typography className='type2' fontWeight='700' fontSize='3rem'>
                     <p>Sweat, Gain, Smile <br /> and Repeat</p>
                 </Typography>
-                <Typography className='type3' fontSize='22px' lineHeight='35px'>
+                <Typography className='type3' fontSize='1.5rem' lineHeight='2rem'>
                     <p>Checkout the most effective exercises</p>
                 </Typography>
                 <Button variant="contained" href='#exercises' className='exp-btn'  style={{marginLeft:'7rem'}}><p>Explore Now</p></Button>
