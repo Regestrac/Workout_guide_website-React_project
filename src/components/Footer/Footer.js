@@ -10,7 +10,6 @@ const Footer = () => {
             <Typography textAlign='center'>
                 Made with ❤️ by Let's Workout<br/>
                 <p style={{fontSize:'small', textAlign:'center', marginTop:'.5rem', marginBottom:'1rem'}}>Owner: Regestrac</p>
-                Made especially for Ajay M V (Mass Veeran Rockey Prakash Annan)
             </Typography>
         </Stack>
     </Box>

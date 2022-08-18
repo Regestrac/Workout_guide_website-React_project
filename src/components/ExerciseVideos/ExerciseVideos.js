@@ -22,7 +22,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
                 <Stack className='thumb-box' sx={{ flexDirection: { lg: 'row' }, gap: { lg: '3rem', xs: '1rem' } }}>
                     {exerciseVideos?.slice(0, 6).map((item, index) => {
                         return (
-                            <Box>
+                            <Box key={index}>
                             <a key={index} className='exercise-videos' href={`https://www.youtube.com/watch?v=${item.video.videoId}`} target='_blank' rel='noreferrer' >
                                 <img src={item.video.thumbnails[0].url} alt={item.video.title} className='thumbnail' />
                                 <Box className='video-box'>
